@@ -9,7 +9,7 @@ public class Lab012_Variables {
         int age = 35;
         String Name = "Vineet";
 
-        //here a is primitive type of datatype. which can be distributed
+        //here a is primitive type of datatype. which cannot be distributed
         int a = 35;
         a = 20+50;
         System.out.println("Value of a : " + a);
