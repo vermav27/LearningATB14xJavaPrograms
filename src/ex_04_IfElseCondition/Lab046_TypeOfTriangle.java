@@ -16,12 +16,20 @@ public class Lab046_TypeOfTriangle {
 
         String type = "Nill";
 
-        if(side1 == side2 && side2 == side3){
-            type = "Equilateral";
-        } else if ((side1 == side2 && side2 != side3) || (side1 == side3 && side3 != side2) || (side2 == side3 && side3 != side1) ) {
-            type = "isosceles";
-        } else if ((side1 != side2 && side2 != side3 && side1 != side3)) {
-            type = "scalene";
+        if (side1 <= 0 || side2 <= 0 || side3 <=0 ) {
+
+            System.out.println("Invalid Side Input");
+
+        }else {
+
+            if (side1 == side2 && side2 == side3) {
+                type = "Equilateral";
+            } else if ((side1 == side2 && side2 != side3) || (side1 == side3 && side3 != side2) || (side2 == side3 && side3 != side1)) {
+                type = "isosceles";
+            } else if ((side1 != side2 && side2 != side3 && side1 != side3)) {
+                type = "scalene";
+            }
+
         }
 
         System.out.printf("Triangle is %s",type);
