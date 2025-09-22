@@ -2,7 +2,7 @@ package ex_08_DoWhileLoop;
 
 import java.util.Scanner;
 
-public class Lab073_CheckTriangleIsValid {
+public class Lab073_TSK_CheckTriangleIsValid {
     public static void main(String[] args) {
         //Check if a Triangle is Valid Based on Three Sides.
         //Sum of two sides should be greater than 3rd side.
