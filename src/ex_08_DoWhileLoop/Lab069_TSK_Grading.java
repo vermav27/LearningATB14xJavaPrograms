@@ -2,7 +2,7 @@ package ex_08_DoWhileLoop;
 
 import java.util.Scanner;
 
-public class Lab069_Grading {
+public class Lab069_TSK_Grading {
     public static void main(String[] args) {
 /*
 
