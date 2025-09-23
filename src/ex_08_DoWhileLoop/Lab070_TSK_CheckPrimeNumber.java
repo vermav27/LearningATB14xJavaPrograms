@@ -2,7 +2,7 @@ package ex_08_DoWhileLoop;
 
 import java.util.Scanner;
 
-public class Lab071_TSK_CheckPrimeNumber {
+public class Lab070_TSK_CheckPrimeNumber {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.printf("Enter a number to check if a number is prime or not : ");

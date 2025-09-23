@@ -2,7 +2,7 @@ package ex_08_DoWhileLoop;
 
 import java.util.Scanner;
 
-public class Lab067_TSK_LargestOfThreeNumber {
+public class Lab066_TSK_LargestOfThreeNumber {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

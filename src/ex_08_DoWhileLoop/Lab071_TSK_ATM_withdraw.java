@@ -2,7 +2,7 @@ package ex_08_DoWhileLoop;
 
 import java.util.Scanner;
 
-public class Lab072_TSK_ATM_withdraw {
+public class Lab071_TSK_ATM_withdraw {
     public static void main(String[] args) {
 /*
 
