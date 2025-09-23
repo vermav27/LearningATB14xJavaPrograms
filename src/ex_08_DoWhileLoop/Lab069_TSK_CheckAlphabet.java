@@ -2,7 +2,7 @@ package ex_08_DoWhileLoop;
 
 import java.util.Scanner;
 
-public class Lab070_TSK_CheckAlphabet {
+public class Lab069_TSK_CheckAlphabet {
     public static void main(String[] args) {
         //Check if a Character is an Alphabet.
         // ASCII value a to z --> 97 to 122

@@ -2,7 +2,7 @@ package ex_08_DoWhileLoop;
 
 import java.util.Scanner;
 
-public class Lab068_TSK_LeapYear {
+public class Lab067_TSK_LeapYear {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
