@@ -12,5 +12,7 @@ public class Lab096_TSK_TableOfGivenNumber {
             System.out.println(num + " X " + i + " = " + (num * i));
         }
 
+        sc.close();
+
     }
 }
