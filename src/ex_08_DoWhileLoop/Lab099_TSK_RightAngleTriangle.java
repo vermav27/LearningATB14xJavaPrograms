@@ -1,6 +1,6 @@
 package ex_08_DoWhileLoop;
 
-public class Lab099_RightAngleTriangle {
+public class Lab099_TSK_RightAngleTriangle {
     public static void main(String[] args) {
         /* Print a right angle triangle
         *
