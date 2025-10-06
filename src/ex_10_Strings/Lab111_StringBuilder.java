@@ -1,4 +1,4 @@
-package ex_010_Strings;
+package ex_10_Strings;
 
 public class Lab111_StringBuilder {
     public static void main(String[] args) {
