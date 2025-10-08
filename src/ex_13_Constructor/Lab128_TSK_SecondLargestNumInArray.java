@@ -2,7 +2,7 @@ package ex_13_Constructor;
 
 import java.util.Scanner;
 
-public class Lab128_TSK_SecondSmallestNumInArray {
+public class Lab128_TSK_SecondLargestNumInArray {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
@@ -43,8 +43,8 @@ public class Lab128_TSK_SecondSmallestNumInArray {
             System.out.println(num[i]);
         }
 
-        //Second Smallest Number :
-        System.out.println("Second smallest Num : " + num[1]);
+        //Second Largest Number :
+        System.out.println("Second largest Num : " + num[lengthOfArray-2]);
 
 
     }
