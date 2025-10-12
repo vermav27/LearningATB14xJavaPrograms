@@ -7,6 +7,9 @@ public class Lab165_Abstrcation {
         * Abstraction is a java concept that hides the complex details and shows only essential features.
         * It can be achieved through the abstract classes and interfaces.
         * Abstract means : INCOMPLETE
+        *
+        *
+        * SIMILAR THINGS CAN ALSO BE ACHIEVED USING INTERFACE
         * */
 
     }
