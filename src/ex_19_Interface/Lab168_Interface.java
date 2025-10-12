@@ -17,7 +17,8 @@ interface Engine1{
     void startEngine();
     void stopEngine();
 
-    //if you want to create a complete function in a interface. then you will have to use the keywrd default
+    //if you want to create a complete function in a interface. then you will have to use the keyword "default"
+    //you cannot create concrete function in interface
 
     default void hello(){
         System.out.println("Let Go On Drive");
