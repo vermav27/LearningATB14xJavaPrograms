@@ -4,8 +4,10 @@ public class Lab168_Interface {
 
     public static void main(String[] args) {
 
+        //Interface completes teh incomplete methods
         car1 c1 = new car1();
         c1.drive();
+
 
     }
 
