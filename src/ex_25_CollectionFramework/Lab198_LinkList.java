@@ -23,6 +23,9 @@ public class Lab198_LinkList {
 
         // In linklist -> If a element is present in linklist node then it knows the location of another next
         // element . Next element contains the location of next element
+        // In linklist prder is maintained
+        // V IMP : If you are doing a lot of insertion or deletion then use --> LinkList
+        // V IMP : If you just have to access the elements fast --> ArrayList
 
     }
 }
