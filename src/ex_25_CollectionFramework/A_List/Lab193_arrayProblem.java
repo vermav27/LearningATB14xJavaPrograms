@@ -1,4 +1,4 @@
-package ex_25_CollectionFramework;
+package ex_25_CollectionFramework.A_List;
 
 public class Lab193_arrayProblem {
     public static void main(String[] args) {

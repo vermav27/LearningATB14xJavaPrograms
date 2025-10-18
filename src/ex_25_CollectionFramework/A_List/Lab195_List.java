@@ -1,4 +1,4 @@
-package ex_25_CollectionFramework;
+package ex_25_CollectionFramework.A_List;
 
 import java.util.List;
 
