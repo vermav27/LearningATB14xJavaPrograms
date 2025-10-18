@@ -1,13 +1,12 @@
-package ex_25_CollectionFramework;
+package ex_25_CollectionFramework.A_List;
 
 import java.util.LinkedList;
 import java.util.List;
-import java.util.Vector;
 
-public class Lab199_Vector {
+public class Lab198_LinkList {
     public static void main(String[] args) {
 
-        List list = new Vector();
+        List list = new LinkedList();
         list.add("Hello");
         list.add("world");
         list.add("Hello");
@@ -22,10 +21,11 @@ public class Lab199_Vector {
         System.out.println("Index of 1 ? " + list.indexOf(1));
         System.out.println("Size of linklist" + list.size());
 
-        // Vector are similar to array list ( old legacy )
-        // All the operations in the vector are syncronized, They are thread safe. Means
-        // All the operation done by one by one by each thread
-        // We use to avoid it
+        // In linklist -> If a element is present in linklist node then it knows the location of another next
+        // element . Next element contains the location of next element
+        // In linklist prder is maintained
+        // V IMP : If you are doing a lot of insertion or deletion then use --> LinkList
+        // V IMP : If you just have to access the elements fast --> ArrayList
 
     }
 }
